@@ -123,12 +123,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="GameDriver.h" />
     <ClInclude Include="GameStructure.h" />
+    <ClInclude Include="Ninjas.h" />
+    <ClInclude Include="Pirates.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Character.cpp" />
     <ClCompile Include="GameDriver.cpp" />
+    <ClCompile Include="Ninjas.cpp" />
     <ClCompile Include="NinjasVsPirates.cpp" />
     <ClCompile Include="GameStructure.cpp" />
+    <ClCompile Include="Pirates.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

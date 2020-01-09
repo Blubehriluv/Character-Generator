@@ -1,10 +1,4 @@
 #include "GameDriver.h"
+#include "GameStructure.h"
 #include <iostream>
-#include <string>
 
-using namespace std;
-
-class GameDriver
-{
-	DisplayCharacterStats();
-};

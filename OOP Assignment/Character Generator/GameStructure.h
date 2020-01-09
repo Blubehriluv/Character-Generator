@@ -1,2 +1,6 @@
 #pragma once
-#include "GameStructure.h"
+
+class GameStructure
+{
+	
+};

@@ -18,6 +18,18 @@
     <ClInclude Include="GameStructure.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="GameDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pirates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ninjas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameStructure.cpp">
@@ -27,6 +39,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GameDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pirates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ninjas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
