@@ -4,7 +4,9 @@ class Ninjas :
 	public Character
 {
 public:
+	Ninjas();
 	void ThrowStars();
+	
 
 private:
 
