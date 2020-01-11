@@ -6,6 +6,7 @@ public:
 
 	void DisplayIntro();
 	void DisplayCharacterStats();
+	int RandomRoll();
 
 private:
 	

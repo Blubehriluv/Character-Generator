@@ -1,6 +1,6 @@
 #include "GameDriver.h"
 #include <iostream>
-
+#include <stdlib.h>
 
 void GameDriver::DisplayIntro()
 {
@@ -16,4 +16,12 @@ void GameDriver::DisplayIntro()
 void GameDriver::DisplayCharacterStats()
 {
 	std::cout << "Test Display Character Stats!" << std::endl;
+}
+
+int GameDriver::RandomRoll()
+{
+	int randomNum;
+	randomNum = rand() % 100 + 1;
+	
+	return randomNum;
 }
