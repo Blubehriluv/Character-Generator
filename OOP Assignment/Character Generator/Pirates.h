@@ -6,6 +6,8 @@ class Pirates :
 public:
 	Pirates();	
 	void UseSword();
+	int Attack() override;
+	void Help() override;
 
 private:
 	

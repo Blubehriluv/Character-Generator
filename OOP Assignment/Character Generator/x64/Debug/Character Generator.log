@@ -1,9 +1,2 @@
-﻿  GameDriver.cpp
-  Ninjas.cpp
-  Pirates.cpp
-  Generating Code...
-GameStructure.obj : error LNK2005: "private: void __cdecl GameStructure::Help(void)" (?Help@GameStructure@@AEAAXXZ) already defined in Ninjas.obj
-Pirates.obj : error LNK2005: "public: int __cdecl Character::GetHealth(void)" (?GetHealth@Character@@QEAAHXZ) already defined in Ninjas.obj
-Pirates.obj : error LNK2005: "private: void __cdecl GameStructure::Help(void)" (?Help@GameStructure@@AEAAXXZ) already defined in Ninjas.obj
-Pirates.obj : error LNK2005: "public: int __cdecl Character::SetHealth(int)" (?SetHealth@Character@@QEAAHH@Z) already defined in Ninjas.obj
-C:\Users\taymcken\Documents\GitHub\Character-Generator\OOP Assignment\x64\Debug\Character Generator.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  NinjasVsPirates.cpp
+  Character Generator.vcxproj -> C:\Users\taymcken\Documents\GitHub\Character-Generator\OOP Assignment\x64\Debug\Character Generator.exe

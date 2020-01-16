@@ -2,5 +2,9 @@
 
 class GameStructure
 {
-	virtual void Help();
+public:
+	virtual void Help() = 0;
+
+private:
+	
 };

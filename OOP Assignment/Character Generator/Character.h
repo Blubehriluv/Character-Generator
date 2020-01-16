@@ -9,9 +9,14 @@ class Character :
 public:
 	std::string Name;
 	int GetHealth();
-	int SetHealth(int healthSet);
-	void GameStructure::Help();
+	void SetHealth(int healthSet);
+	//void GameStructure::Help();
+	void DisplayCharacterStats();
+	void Talk(std::string stuffToSay);
+	void Talk(std::string stuffToSay, std::string Name);
+	virtual int Attack();
+	void Help() override;
 
 private:
-	int Health = 100;
+	int Health;
 };
