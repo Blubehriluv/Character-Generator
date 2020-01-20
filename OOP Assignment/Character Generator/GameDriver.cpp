@@ -26,3 +26,8 @@ int GameDriver::RandomRoll()
 	
 	return randomNum;
 }
+
+void GameDriver::FightEachOther()
+{
+	
+}

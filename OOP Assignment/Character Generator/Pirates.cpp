@@ -22,3 +22,8 @@ int Pirates::Attack()
 {
 	return 35;
 }
+
+void Ninjas::Hurt()
+{
+	std::cout << "The fiend landed a blow!" << std::endl;
+}

@@ -8,6 +8,7 @@ public:
 	void ThrowStars();
 	int Attack() override;
 	void Help() override;
+	void Hurt() override;
 
 private:
 

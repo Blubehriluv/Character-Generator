@@ -39,6 +39,11 @@ int Character::Attack()
 	return 10;
 }
 
+void Character::Hurt()
+{
+	std::cout << "Somebody got slapped!" << std::endl;
+}
+
 //int Character::Attack(int )
 
 void Character::Help()

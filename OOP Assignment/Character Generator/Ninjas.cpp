@@ -23,3 +23,8 @@ int Ninjas::Attack()
 {
 	return 25;
 }
+
+void Ninjas::Hurt()
+{
+	std::cout << "The fiend landed a blow!" << std::endl;
+}

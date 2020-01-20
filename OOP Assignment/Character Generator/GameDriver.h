@@ -7,6 +7,7 @@ public:
 	void DisplayIntro();
 	void DisplayCharacterStats();
 	int RandomRoll();
+	void FightEachOther();
 
 private:
 	

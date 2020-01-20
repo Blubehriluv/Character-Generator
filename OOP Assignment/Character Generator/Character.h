@@ -15,6 +15,7 @@ public:
 	void Talk(std::string stuffToSay);
 	void Talk(std::string stuffToSay, std::string Name);
 	virtual int Attack();
+	virtual void Hurt();
 	void Help() override;
 
 private:
