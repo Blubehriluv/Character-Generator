@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 
 class GameDriver
 {
@@ -8,6 +9,7 @@ public:
 	void DisplayCharacterStats();
 	int RandomRoll();
 	void FightEachOther();
+	void Speak(std::string speech);
 
 private:
 	

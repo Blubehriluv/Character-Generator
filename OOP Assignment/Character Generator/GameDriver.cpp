@@ -1,6 +1,8 @@
 #include "GameDriver.h"
 #include <iostream>
 #include <stdlib.h>
+#include "Character.h"
+#include "Ninjas.h"
 
 void GameDriver::DisplayIntro()
 {
@@ -16,7 +18,15 @@ void GameDriver::DisplayIntro()
 
 void GameDriver::DisplayCharacterStats()
 {
-	std::cout << "Test Display Character Stats!" << std::endl;
+	std::cout << "Display Character Stats!" << std::endl;
+	std::cout << "\t\tPirate" << std::endl;
+	std::cout << "Health:\t100" << std::endl;
+	std::cout << "Damage:\t25" << std::endl;
+	std::cout << std::endl;
+	std::cout << std::endl;
+	std::cout << "\t\tNinjas" << std::endl;
+	std::cout << "Health:\t100" << std::endl;
+	std::cout << "Damage:\t25" << std::endl;
 }
 
 int GameDriver::RandomRoll()
@@ -30,4 +40,11 @@ int GameDriver::RandomRoll()
 void GameDriver::FightEachOther()
 {
 	
+}
+
+void GameDriver::Speak(std::string speech)
+{
+	std::cout << std::endl;
+	std::cout << speech << std::endl;
+	std::cout << std::endl;
 }

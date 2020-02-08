@@ -1,4 +1,5 @@
 #include "Pirates.h"
+#include "Character.h"
 #include <iostream>
 
 Pirates::Pirates()
@@ -20,10 +21,20 @@ void Pirates::Help()
 
 int Pirates::Attack()
 {
-	return 35;
+	return 25;
 }
 
-void Ninjas::Hurt()
+void Pirates::Hurt()
 {
-	std::cout << "The fiend landed a blow!" << std::endl;
+	std::cout << "Yarrrg, that hurts me booty!" << std::endl;
+}
+
+void Pirates::Talk(std::string stuffToSay)
+{
+	std::cout << stuffToSay << std::endl;
+}
+
+void Pirates::Talk(std::string stuffToSay, std::string Name)
+{
+	std::cout << Name << ", " << stuffToSay << "." << std::endl;
 }

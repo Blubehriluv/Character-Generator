@@ -28,3 +28,13 @@ void Ninjas::Hurt()
 {
 	std::cout << "The fiend landed a blow!" << std::endl;
 }
+
+void Character::Talk(std::string stuffToSay)
+{
+	std::cout << stuffToSay << std::endl;
+}
+
+void Character::Talk(std::string stuffToSay, std::string Name)
+{
+	std::cout << Name << ", " << stuffToSay << "." << std::endl;
+}

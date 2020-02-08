@@ -14,15 +14,14 @@ void Character::DisplayCharacterStats()
 	std::cout << "Has a current health of " << GetHealth() << std::endl;
 }
 
-
-void Talk(std::string stuffToSay)
+void Character::Talk(std::string stuffToSay)
 {
 	std::cout << "Our Character says: " << stuffToSay << std::endl;
 }
 
-void Talk(std::string stuffToSay, std::string Name)
+void Character::Talk(std::string stuffToSay, std::string Name)
 {
-	//Add content.
+	std::cout << Name << ", " << stuffToSay << "." << std::endl;
 }
 
 void Character::SetHealth(int healthSet)
