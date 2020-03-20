@@ -2,10 +2,10 @@
 #include "Character.h"
 #include <iostream>
 
-Ninjas::Ninjas()
+Ninjas::Ninjas(std::string givenName)
 {
 	std::cout << "Who has woken me?" << std::endl;
-	Name = "Master Lee Sin";
+	Name = givenName;
 	std::cout << "It is I, " << Name << "!" << std::endl;
 }
 
@@ -27,14 +27,4 @@ int Ninjas::Attack()
 void Ninjas::Hurt()
 {
 	std::cout << "The fiend landed a blow!" << std::endl;
-}
-
-void Character::Talk(std::string stuffToSay)
-{
-	std::cout << stuffToSay << std::endl;
-}
-
-void Character::Talk(std::string stuffToSay, std::string Name)
-{
-	std::cout << Name << ", " << stuffToSay << "." << std::endl;
 }

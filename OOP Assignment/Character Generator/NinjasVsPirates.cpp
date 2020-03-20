@@ -6,6 +6,7 @@
 
 int main()
 {
+	//Begins the application
 	Character manager;
 	GameDriver driver;
 	driver.DisplayIntro();
@@ -13,16 +14,18 @@ int main()
 	driver.Speak("Introducing, Ninja!");
 	
 	//creating a ninja
-	Ninjas firstNinja;
-	firstNinja.Name = "Weeb";
+	Ninjas firstNinja("Master Lee Sin, the Weeb");
+	firstNinja.SetHealth(100);
 	firstNinja.DisplayCharacterStats();
 	firstNinja.Talk("I'm da best");
 	firstNinja.Help();
 
 	driver.Speak("Introducing, Pirate!");
-	
-	Pirates firstPirate;
-	firstPirate.Name = "Stinky";
+
+	//creating a pirate
+	Pirates firstPirate("Captain Blunderhook, the Stinky");
+	//firstPirate.Name = "Stinky";
+	firstPirate.SetHealth(100);
 	firstPirate.DisplayCharacterStats();
 	firstPirate.Talk("Get ready to swab the poopdeck!");
 	firstPirate.Help();
@@ -36,9 +39,13 @@ int main()
 	firstPirate.UseSword();
 	firstNinja.Hurt();
 	firstNinja.ThrowStars();
+	firstPirate.Hurt();
+	firstPirate.UseSword();
+	firstNinja.Hurt();
+	firstNinja.ThrowStars();
+	firstPirate.Hurt();
 
-	manager.SetHealth(0);
-	manager.SetHealth(0);
+	firstPirate.SetHealth(0);
 	
 	return 0;
 }

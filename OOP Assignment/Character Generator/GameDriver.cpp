@@ -6,6 +6,7 @@
 
 void GameDriver::DisplayIntro()
 {
+	std::cout << std::endl;
 	std::cout << "Welcome to Pirates vs. Ninjas 2.0" << std::endl;
 	std::cout << "The code will work this time, I promise!" << std::endl;
 	std::cout << std::endl;
@@ -18,6 +19,8 @@ void GameDriver::DisplayIntro()
 
 void GameDriver::DisplayCharacterStats()
 {
+	
+	std::cout << std::endl;
 	std::cout << "Display Character Stats!" << std::endl;
 	std::cout << "\t\tPirate" << std::endl;
 	std::cout << "Health:\t100" << std::endl;
@@ -27,6 +30,7 @@ void GameDriver::DisplayCharacterStats()
 	std::cout << "\t\tNinjas" << std::endl;
 	std::cout << "Health:\t100" << std::endl;
 	std::cout << "Damage:\t25" << std::endl;
+	std::cout << std::endl;
 }
 
 int GameDriver::RandomRoll()

@@ -1,5 +1,7 @@
 #pragma once
 #include <string>
+#include "Character.h"
+#include "Ninjas.h"
 
 class GameDriver
 {

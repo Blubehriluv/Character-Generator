@@ -2,10 +2,10 @@
 #include "Character.h"
 #include <iostream>
 
-Pirates::Pirates()
+Pirates::Pirates(std::string givenName)
 {
 	std::cout << "Yarg, who disturbs me sleep?" << std::endl;
-	Name = "Captain Blunderhook";
+	Name = givenName;
 	std::cout << "It be I, " << Name << ", Cap'n of all the 7 seas!" << std::endl;
 }
 
@@ -27,14 +27,4 @@ int Pirates::Attack()
 void Pirates::Hurt()
 {
 	std::cout << "Yarrrg, that hurts me booty!" << std::endl;
-}
-
-void Pirates::Talk(std::string stuffToSay)
-{
-	std::cout << stuffToSay << std::endl;
-}
-
-void Pirates::Talk(std::string stuffToSay, std::string Name)
-{
-	std::cout << Name << ", " << stuffToSay << "." << std::endl;
 }

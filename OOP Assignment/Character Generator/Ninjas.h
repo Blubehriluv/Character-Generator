@@ -4,7 +4,7 @@ class Ninjas :
 	public Character
 {
 public:
-	Ninjas();
+	Ninjas(std::string givenName);
 	void ThrowStars();
 	int Attack() override;
 	void Help() override;

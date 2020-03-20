@@ -24,14 +24,20 @@ void Character::Talk(std::string stuffToSay, std::string Name)
 	std::cout << Name << ", " << stuffToSay << "." << std::endl;
 }
 
-void Character::SetHealth(int healthSet)
+int Character::SetHealth(int healthSet)
 {
 	if (healthSet <= 0)
 	{
 		healthSet = 0;
+		Health = healthSet;
 		std::cout << Name << " has been executed, with 0 health left." << std::endl;
 	}
-}
+	else
+	{
+		Health = healthSet;
+	}
+	return Health;
+} 
 
 int Character::Attack()
 {

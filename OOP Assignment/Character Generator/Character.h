@@ -9,7 +9,7 @@ class Character :
 public:
 	std::string Name;
 	int GetHealth();
-	void SetHealth(int healthSet);
+	int SetHealth(int healthSet);
 	//void GameStructure::Help();
 	void DisplayCharacterStats();
 	void Talk(std::string stuffToSay);
